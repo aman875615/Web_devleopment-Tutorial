@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            border: 5px solid black;
+            background-color: rgba(126, 84, 26, 0);
+
+        }
+        .box1{
+            height: 60px;
+            width: 350px;
+            border: 3px solid black;
+            background-color: blue;
+            margin: 10px;
+            border-radius: 10px;
+            position: relative;
+            animation: 2s ease-in infinite alternate  none running rightmovement;
+        }
+        @keyframes rightmovement {
+             from {
+                top: 0;
+                left: 0;
+            }
+            to{
+                top: 0;
+                left: 78%;
+            }
+        }
+        .circle{
+            height: 60px;
+            width: 100px;
+            border: 2px solid black;
+            background-color: blue;
+            /* margin: 10px; */
+            
+            border-radius: 50%;
+            position: relative;
+            top: 30%;
+            left: 40%;
+            animation: 9s ease-in-out 0s infinite alternate-reverse none running circlemovement;
+          
+        }
+            
+        @keyframes circlemovement {
+            0% {
+                top: 1%;
+                left: 5%;
+            }
+            30%{
+                top: 5%;
+                left: 90%;
+            }
+            60%{
+                top: 71%;
+                left: 15%;
+            }
+            100%{
+                top: 81%;
+                left: 80%;
+            }
+
+        }
+        .box2{
+           height: 60px;
+            width: 350px;
+            border: 2px solid black;
+            background-color: blue;
+            /* margin: 10px; */
+            
+            border-radius: 15px;
+            padding: 2px;
+            position: relative;
+            animation: 2s ease-in 0s infinite alternate none running leftmovement;
+        }
+        @keyframes leftmovement {
+            from{
+                top: 500px;
+                left:77%;
+            }
+            to{
+                top: 500px;
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="circle"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>

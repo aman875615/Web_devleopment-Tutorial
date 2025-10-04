@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow: none;
+    background-color: #e2e5e8;
+    background-image: linear-gradient(98deg,#e2e5e8,#ffffff 8%);
+
+}
+.navcontainer{
+    width: 100vw;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(2,0,67,1) 2.2%, rgba(79,8,225,1) 90% );
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navlist{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+input{
+    height: 45px;
+    width: 400px;
+   border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* border: none; */
+    padding-left: 20px;
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+.logosearch{
+    background-color: #ed7d0deb;
+    height: 45px;
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+}
+.logosearch{
+    font-size: 1.8rem;
+    color: rgb(9, 9, 9);
+}
+.search{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.search:hover{
+    border: 3px solid white;
+}
+nav{
+    width: 100%;
+}
+#navlogo{
+    font-size: 3rem;
+    color: white;
+}
+#navlink{
+font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+#navitems{
+    display: flex;
+    gap: 35px;
+}
+.border:hover{
+border: 3px solid white;
+border-radius: 5px;
+transition: all 0.1s ease;
+}
+.contentbox{
+    width: 70%;
+    min-height: 1560px;
+    height: auto;
+    padding: 3rem;
+    margin: auto;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.3);
+
+}
+.mithayi{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.image
+{
+    height: 400px;
+    width: 50%;
+    background-image: url("gulabjamun2.webp");
+    margin-top: 50px;
+    padding: 10px 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px grey; 
+  
+}
+.image:hover{
+    transform:scale(1.12);
+    box-shadow: 15px 15px 25px rgb(68, 53, 53);    
+    transition: all 0.6s ease-in-out;
+    opacity: 1;
+    
+
+}
+.image .overf{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #302e2e8c;
+    opacity: 0;
+}
+.image:hover .overf{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.image2{
+   background-image: url("barfi.jpg");
+   height: 400px;
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-size: cover;
+    background-position: center;
+   border-radius: 20px;
+    box-shadow: 10px 10px 20px grey; 
+}
+
+
+.image2 .overf{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #302e2e8c;
+    opacity: 0;
+}
+.image2:hover{
+    transform:scale(1.12);
+    box-shadow: 15px 15px 25px #302e2e8c;    
+    transition: all 0.5s ease-in-out;
+ 
+
+}
+.image2:hover .overf{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.image3{
+    height: 400px;
+    width: 50%;
+    background-image: url("motichurladdu.jpeg");
+    margin-top: 50px;
+    /* border: 5px solid black; */
+    padding: 10px 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-size: cover;
+    background-position: center;
+   border-radius: 20px;
+    box-shadow: 10px 10px 20px grey; 
+}
+.image3 .overf{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d080896;
+    opacity: 0;
+}
+.image3:hover{
+    transform:scale(1.12);
+    box-shadow: 15px 15px 25px #231b1ba6;    
+    transition: all 0.5s ease-in-out;
+   
+}
+.image3:hover .overf{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.itemsinfo1{
+    flex-direction: column;
+    width: 47%; 
+    margin-top: 50px;
+    height: 400px;
+    padding-left: 40px;
+    margin-right: 40px;
+    list-style: none;
+
+    margin-left: 40px;
+    overflow: auto;
+}
+.itemsinfo1 h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.itemsinfo2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.itemsinfo2 h2{
+    padding-bottom: 20px;
+   
+}
+.footerbox{
+    height: 80px;
+    width: 100%;
+    color: white;
+    display: flex;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(2,0,67,1) 2.2%, rgba(79,8,225,1) 90% );
+    text-align: center;
+     align-items: center;
+     justify-content: center;
+    
+}
+.footerbox p{
+    font-size: 2rem;
+
+    align-items: center;
+    margin-bottom: 5px;
+}
+/* Mobile & Tablet ke liye */
+@media (max-width: 768px) {
+
+  /* Navbar ko column me kar do */
+  #navlist {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #navlogo {
+    font-size: 2rem; /* thoda chhota kar do */
+  }
+
+  input {
+    width: 90%;
+    justify-content: center;  
+    align-items: center; /* search bar puri line le le */
+    overflow: hidden;
+  }
+
+  #navitems {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Mithayi boxes stack ho jaye ek ke niche ek */
+  .mithayi {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .itemsinfo1 {
+    width: 100%;
+    margin: 20px 0;
+    padding-left: 10px;
+  }
+
+  .image, .image2, .image3 {
+    width: 100%;
+    margin: 10px 0;
+    height: 250px;  /* thoda chhota mobile ke liye */
+  }
+
+  .footerbox p {
+    font-size: 1.2rem;
+  }
+}
+
+

@@ -1,0 +1,97 @@
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .container {
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            background-color: white;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        body.light-mode {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        body.dark-mode {
+            background-color: #333;
+            color: brown;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        ul {
+            text-align: left;
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Dark/Light Mode Toggle</h1>
+        <p>
+            This page demonstrates a simple yet powerful way to switch between 
+            <strong>dark</strong> and
+            <strong>light</strong> modes for a better user experience.
+        </p>
+        <p>
+            Switching to dark mode can reduce eye strain, especially in low-light environments, 
+            while light mode is
+            better for bright settings.
+        </p>
+        <button id="theme-toggle">Switch to Dark Mode</button>
+        <h2>Benefits of Dark/Light Mode</h2>
+        <ul>
+            <li>Improves accessibility for users with visual impairments.</li>
+            <li>Reduces eye strain during prolonged usage.</li>
+            <li>Personalizes the user experience.</li>
+            <li>Saves device battery life on OLED and AMOLED screens.</li>
+        </ul>
+        <p>
+            Learn more about web accessibility and user experience on the
+            <a href="https://www.w3.org/WAI/" target="_blank">
+                W3C Accessibility Guidelines</a>.
+        </p>
+    </div>
+</body>
+
+</html>o 

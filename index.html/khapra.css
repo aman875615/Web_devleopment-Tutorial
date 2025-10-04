@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#pos1{
+    background-image: url('https://th.bing.com/th/id/OIP.CfX4b1kYk3JH5mX4mJt2WgHaHa?pid=ImgDet&rs=1');
+    background-size: cover;
+}
+#pos2{
+    background-image: url("cat_photo.jpg");
+    background-size: cover;
+}

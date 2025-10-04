@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    /* transition: all 2s ease-in 1s; */
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(2,0,67,1) 2.2%, rgba(79,8,225,1) 90% ); */
+}
+/* .container:hover{
+    height: 1200px;
+    width: 1200px;
+} */
+.outcard{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border-radius: 10px solid black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: absolute;
+    border-radius: 10px;transition: all 2s ease-in 1s;
+    
+
+}
+.outcard:hover{
+    height: 1200px;
+    width: 1200px;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    box-shadow: 10px 15px 25px 10px    #f12b08;
+
+  
+}
+.card{
+height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border-radius: 10px solid black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: absolute;
+    box-shadow: 10px 15px 105px 20px    #3008f7b9;
+}
+.part1{
+    background-image:url("aman2.jpg");
+    border-radius: 10px;
+
+}
+
+h2{
+    text-align:center;
+    text-shadow: 12px 5px 1px  white;
+}
+h4{
+    margin-left:15px;
+}
+button{
+    text-align:center;
+    margin-top: 20px;
+    height: 3rem;
+    width: 50%;
+    background-color: #34f304;
+    margin-left: 25%;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size:larger ;
+    box-shadow: 10px 15px 25px 2px    #504d4d;
+}
+button:hover{
+    background-color: #f90505;
+    cursor: pointer;
+}
+.skill{
+    display: flex;
+    margin-top:20px;
+}
+p{
+    margin-left:20px;
+    margin-bottom:50px;
+  
+}
+ul{
+    margin-left:15px;
+}
