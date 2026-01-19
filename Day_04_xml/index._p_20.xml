@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<!DOCTYPE bookstore SYSTEM "bookstore.dtd">
+
+<!-- Root element -->
+<bookstore xmlns:bk="http://www.example.com/books">
+
+    <!-- Book element with attribute -->
+    <bk:book category="Programming">
+
+        <!-- Child elements -->
+        <title>Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+
+        <!-- CDATA section -->
+        <description>
+            <![CDATA[
+                This book covers <XML> basics & advanced topics.
+            ]]>
+        </description>
+
+    </bk:book>
+
+</bookstore>

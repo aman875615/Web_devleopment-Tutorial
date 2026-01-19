@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+
+    <book id="B101">
+        <title>Web Technologies</title>
+        <author>Thomas</author>
+        <price>450</price>
+        <category>Technology</category>
+    </book>
+
+    <book id="B102">
+        <title>Java Programming</title>
+        <author>James</author>
+        <price>550</price>
+        <category>Programming</category>
+    </book>
+
+    <book id="B103">
+        <title>Artificial Intelligence</title>
+        <author>Russell</author>
+        <price>650</price>
+        <category>AI</category>
+    </book>
+
+</bookstore>

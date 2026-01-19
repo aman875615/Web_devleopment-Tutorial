@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college>
+    <student>
+        <name>Aman</name>
+        <course>B.Tech</course>
+        <branch>Computer Science</branch>
+        <year>3</year>
+    </student>
+</college>

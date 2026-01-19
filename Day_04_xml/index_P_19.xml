@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book category="Programming">
+        <title>Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+    </book>
+
+    <book category="Fiction">
+        <title>The Alchemist</title>
+        <author>Paulo Coelho</author>
+        <year>1988</year>
+        <price>15.50</price>
+    </book>
+
+    <book category="Science">
+        <title>A Brief History of Time</title>
+        <author>Stephen Hawking</author>
+        <year>1988</year>
+        <price>18.00</price>
+    </book>
+
+    <book category="Education">
+        <title>Discrete Mathematics</title>
+        <author>Kenneth Rosen</author>
+        <year>2012</year>
+        <price>45.00</price>
+    </book>
+</bookstore>

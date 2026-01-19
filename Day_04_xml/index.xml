@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<student>
+    <name>John Doe</name>
+    <age>21</age>
+    <major>Computer Science</major>
+    <courses>
+        <course>Data Structures</course>
+        <course>Algorithms</course>
+        <course>Database Systems</course>
+    </courses>
+</student>

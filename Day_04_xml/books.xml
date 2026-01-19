@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+
+<bookstore>
+    <book>
+        <title>Learning XML</title>
+        <author>Erik Ray</author>
+        <price>300</price>
+    </book>
+</bookstore>
